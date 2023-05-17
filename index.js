@@ -16,7 +16,7 @@ var app = express();
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
-app.listen(8080);
+app.listen(8000);
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(session({ secret: "secret" }));
 
